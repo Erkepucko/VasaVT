@@ -1,0 +1,251 @@
+html, body {
+    font-family: RoboSlab;
+    font-size: 100%;
+    line-height: 1;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-image: url("/background.png");
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.small {
+    height: 1em;
+    width: 1em;
+}
+
+.sphere {
+    height: 14px;
+    position: absolute;
+    top: -7px;
+    right: -3px;
+}
+
+/*********************
+       Font Face
+*********************/
+@font-face {
+    font-family: RoboSlab;
+    src: url("/font/RobotoSlab-Regular.ttf");
+    
+}
+
+/**********************
+        Header
+**********************/
+#headContainer {
+    min-width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
+
+#head {
+    width: 78em;
+    height: 5em;;
+    margin: 0 auto;
+    background-color: beige;
+    position: relative;
+}
+
+#headLeft {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: auto;
+}
+
+#head h2 {
+    margin-left: 1.5em;
+    display: inline-block;
+}
+
+#headRight {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: auto;
+}
+
+#headRight img {
+    width: 6em;
+    margin-right: 2.5em;
+}
+
+/**********************
+        Main
+**********************/
+#mainContainer {
+    width: 78em;
+    height: auto;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#mainContent {
+    background-image: url("/img/icons/map.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 42em;
+    width: 80%;
+    float: right;
+    background-color: azure;
+}
+
+#mainContent div {
+    position: absolute;
+    transition: transform .3s ease-out;
+}
+
+#mainContent div:hover:not([icon~="office"]) {
+    transform: scale(1.5);
+}
+
+#mainContent div[icon~="office"] object {
+    transition: transform .3s ease-out;
+}
+
+#mainContent div[icon~="office"]:hover object {
+    transform: scale(1.5);
+    
+}
+
+#mainContent div:hover p {
+    color:#ff0000;
+}
+
+#mainContent object {
+    height: 1.5em;
+    
+}
+
+#mainContent div[icon~="classroom"] p {
+    transition: color .5s ease-out;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: .7em;
+    margin-top: -.8em;
+}
+
+#mainContent div[icon~="office"] p {
+    margin-top: .3em;
+    margin-left: -.6em;
+    font-size: 0em;
+    transition: font-size .3s ease-out, color .5s ease-out;
+}
+
+/*#mainContent div[icon~="office"] p:first-of-type {
+    margin-top: 0em;
+}*/
+
+#mainContent div[icon~="office"]:hover p {
+    font-size: 1em;
+    transition-delay: .1s;
+}
+
+/*****************
+    Main Info
+*****************/
+#mainInfo {
+    float: left;
+    height: 42em;
+    width: 20%;
+    background-color: coral;
+    overflow: auto;
+}
+
+
+#info {
+    margin-left: 1em;
+}
+
+#info li {
+    margin-top: .5em;
+    display: table;
+}
+
+#info li div {
+    display: inline-block;
+    height: 2.5em;
+    width: 2.5em;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#info li span {
+    font-size: 1em;
+    padding-left: 1em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    
+
+/*********************
+        Footer
+*********************/
+#footerContainer {
+    min-width: 100%;
+    background-color: chartreuse;
+    height: auto;
+}
+
+#footerContainer footer {
+    width: 78em;
+    margin: 0 auto;
+    background-color:bisque; 
+}
+
+/*********************
+ Media query <1265px
+        Tablet
+*********************/
+@media (max-width: 1265px) {
+    #head {
+        width: 62.4em;
+    }
+    
+    #mainContainer {
+        height: auto;
+        width: 62.4em;
+    }
+    
+     #mainContent{
+         float: none;
+         width: 100%;
+         height: 42em;
+    }
+    
+    #mainInfo {
+        float: none;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    #info {
+        margin-left: 0;
+        text-align: center;
+        columns: 3;
+        -webkit-columns: 3;
+        -moz-columns: 3;
+    }
+    
+    #footerContainer footer {
+        width: 62.4em;
+    }
+}

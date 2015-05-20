@@ -1,0 +1,439 @@
+/*********************
+    Map Icons Position
+selected with the attribute "icon" 
+*********************/
+#mainContent div[icon~="auditorium"] {
+    margin-left: 15.9em;
+    margin-top: 34em;
+    width: 2.5em;
+}
+#mainContent div[icon~="auditorium"] object {
+    width: 3em;
+    height: 3em;
+}
+
+#mainContent div[icon~="library"] {
+    margin-left: 10em;
+    margin-top: 20em;
+}
+
+
+/*Dörrar*/
+#mainContent div[icon~="entranceMain"] {
+    margin-left: 6em;
+    margin-top: 32em;
+}
+#mainContent div[icon~="entranceupper"] {
+    margin-left: 16em;
+    margin-top: 9.5em;
+}
+#mainContent div[icon~="entrancelower"] {
+    margin-left: 41.4em;
+    margin-top: 36em;
+}
+
+
+
+
+
+#mainContent div[icon~="canteen"] {
+    margin-left: 26em;
+    margin-top: 34em;
+}
+
+#mainContent div[icon~="coffee"] {
+    margin-left: 28.5em;
+    margin-top: 36em;
+}
+
+
+
+/* A Salar */
+#mainContent div[icon~="classroom"][room~="a1"] {
+    margin-left: 11.4em;
+    margin-top: 35.5em;
+}
+#mainContent div[icon~="classroom"][room~="a2"] {
+    margin-left: 8.4em;
+    margin-top: 35.5em;
+}
+#mainContent div[icon~="classroom"][room~="a3"] {
+    margin-left: 2.3em;
+    margin-top: 30em;
+}
+
+
+/* B Salar */
+#mainContent div[icon~="classroom"][room~="b1"] {
+    margin-left: 11.9em;
+    margin-top: 26.5em;
+}
+
+#mainContent div[icon~="classroom"][room~="b2"] {
+    margin-left: 8.5em;
+    margin-top: 26.5em;
+}
+
+#mainContent div[icon~="classroom"][room~="b3"] {
+    margin-left: 2.3em;
+    margin-top: 26.7em;
+}
+
+#mainContent div[icon~="classroom"][room~="b4"] {
+    margin-left: 2.3em;
+    margin-top: 24em;
+}
+
+#mainContent div[icon~="classroom"][room~="b5"] {
+    margin-left: 2.3em;
+    margin-top: 21.2em;
+}
+
+#mainContent div[icon~="classroom"][room~="b6"] {
+    margin-left: 2.3em;
+    margin-top: 18em;
+}
+
+#mainContent div[icon~="classroom"][room~="b7"] {
+    margin-left: 2.3em;
+    margin-top: 12.9em;
+}
+
+#mainContent div[icon~="classroom"][room~="b8"] {
+    margin-left: 8.5em;
+    margin-top: 12.9em;
+}
+
+#mainContent div[icon~="classroom"][room~="b9"] {
+    margin-left: 12em;
+    margin-top: 12.9em;
+}    
+#mainContent div[icon~="classroom"][room~="b10"] {
+    margin-left: 17.5em;
+    margin-top: 13.3em;
+}    
+#mainContent div[icon~="classroom"][room~="b12"] {
+    margin-left: 17em;
+    margin-top: 19.8em;
+}    
+#mainContent div[icon~="classroom"][room~="b13"] {
+    margin-left: 17.5em;
+    margin-top: 22.4em;
+}    
+#mainContent div[icon~="classroom"][room~="b14"] {
+    margin-left: 17.5em;
+    margin-top: 26.6em;
+}
+
+
+/* E Salar */
+#mainContent div[icon~="classroom"][room~="e1"] {
+    margin-left: 27em;
+    margin-top: 6.2em;
+}
+
+#mainContent div[icon~="classroom"][room~="e3"] {
+    margin-left: 16.7em;
+    margin-top: 6.2em;
+}
+
+
+
+/* N Salar */
+#mainContent div[icon~="classroom"][room~="n1"] {
+    margin-left: 34.6em;
+    margin-top: 24.2em;
+}
+
+#mainContent div[icon~="classroom"][room~="n2"] {
+    margin-left: 34.6em;
+    margin-top: 18.9em;
+}
+
+#mainContent div[icon~="classroom"][room~="n3"] {
+    margin-left: 34.6em;
+    margin-top: 15em;
+}
+
+#mainContent div[icon~="classroom"][room~="n4"] {
+    margin-left: 38.8em;
+    margin-top: 15em;
+}
+
+#mainContent div[icon~="classroom"][room~="n5"] {
+    margin-left: 42.3em;
+    margin-top: 15em;
+}
+
+#mainContent div[icon~="classroom"][room~="n6"] {
+    margin-left: 42.3em;
+    margin-top: 24.2em;
+}
+
+#mainContent div[icon~="classroom"][room~="n7"] {
+    margin-left: 38.8em;
+    margin-top: 24.2em;
+}
+
+#mainContent div[icon~="classroom"][room~="n8"] {
+    margin-left: 36.4em;
+    margin-top: 32.5em;
+}
+
+#mainContent div[icon~="classroom"][room~="n9"] {
+    margin-left: 39.4em;
+    margin-top: 32.5em;
+}
+
+#mainContent div[icon~="classroom"][room~="n10"] {
+    margin-left: 43.5em;
+    margin-top: 32.5em;
+}
+
+
+
+/* T Salar */
+#mainContent div[icon~="classroom"][room~="t2"] {
+    margin-left: 36.8em;
+    margin-top: 6.7em;
+}
+
+#mainContent div[icon~="classroom"][room~="t3"] {
+    margin-left: 42.8em;
+    margin-top: 6.7em;
+}
+
+#mainContent div[icon~="classroom"][room~="t4"] {
+    margin-left: 47.3em;
+    margin-top: 6.7em;
+}
+
+#mainContent div[icon~="classroom"][room~="t5"] {
+    margin-left: 52.9em;
+    margin-top: 6.7em;
+}
+
+#mainContent div[icon~="classroom"][room~="t6"] {
+    margin-left: 58.3em;
+    margin-top: 5em;
+}
+
+#mainContent div[icon~="classroom"][room~="t7"] {
+    margin-left: 57.7em;
+    margin-top: 1.3em;
+}
+
+#mainContent div[icon~="classroom"][room~="t8"] {
+    margin-left: 47.4em;
+    margin-top: 12.5em;
+}
+
+
+/* Lärarrum */
+#mainContent div[icon~="office"][room~="ba5"] {
+    margin-left: 2.4em;
+    margin-top: 15.4em;
+}
+
+#mainContent div[icon~="office"][room~="ba6"] {
+    margin-left: 5.7em;
+    margin-top: 12.3em;
+}
+
+#mainContent div[icon~="office"][room~="ba8"] {
+    margin-left: 17.3em;
+    margin-top: 16.3em;
+}
+
+
+#mainContent div[icon~="office"][room~="b11"] {
+    margin-left: 17.9em;
+    margin-top: 18.2em;
+}
+
+#mainContent div[icon~="office"][room~="la2"] {
+    margin-left: 28.9em;
+    margin-top: 20em;
+}
+#mainContent div[icon~="office"][room~="la5"] {
+    margin-left: 28.7em;
+    margin-top: 24.6em;
+}
+#mainContent div[icon~="office"][room~="la6"] {
+    margin-left: 28.9em;
+    margin-top: 26.2em;
+}
+#mainContent div[icon~="office"][room~="la9"] {
+    margin-left: 24.4em;
+    margin-top: 19.5em;
+}
+#mainContent div[icon~="office"][room~="la10"] {
+    margin-left: 24.2em;
+    margin-top: 17em;
+}
+#mainContent div[icon~="office"][room~="la11"] {
+    margin-left: 24.2em;
+    margin-top: 14.5em;
+}
+#mainContent div[icon~="office"][room~="la12"] {
+    margin-left: 24.4em;
+    margin-top: 12.3em;
+}
+
+#mainContent div[icon~="office"][room~="stig"] {
+    margin-left: 18.2em;
+    margin-top: 24.6em;
+}
+#mainContent div[icon~="office"][room~="matsal"] {
+    margin-left: 21.5em;
+    margin-top: 34.5em;
+}
+#mainContent div[icon~="office"][room~="biblotek"] {
+    margin-left: 5.3em;
+    margin-top: 19.8em;
+}
+#mainContent div[icon~="office"][room~="ea1"] {
+    margin-left: 21.5em;
+    margin-top: 6.6em;
+}
+#mainContent div[icon~="office"][room~="ea2"] {
+    margin-left: 20.2em;
+    margin-top: 6.2em;
+}
+#mainContent div[icon~="office"][room~="t1"] {
+    margin-left: 33.5em;
+    margin-top: 6.8em;
+}
+#mainContent div[icon~="office"][room~="ta1"] {
+    margin-left: 39.85em;
+    margin-top: 6.8em;
+}
+
+
+
+#mainContent div[icon~="reception"] {
+    margin-left: 24.4em;
+    margin-top: 26.5em;
+}
+
+#mainContent div[icon~="toilet1"] {
+    margin-left: 14.5em;
+    margin-top: 12.5em;
+}
+
+#mainContent div[icon~="toilet2"] {
+    margin-left: 28.8em;
+    margin-top: 12.2em;
+}
+
+#mainContent div[icon~="toilet3"] {
+    margin-left: 48.4em;
+    margin-top: 10.6em;
+}
+
+#mainContent div[icon~="toilet4"] {
+    margin-left: 14.5em;
+    margin-top: 27.6em;
+}
+
+#mainContent div[icon~="toilet5"] {
+    margin-left: 12.2em;
+    margin-top: 32.6em;
+}
+
+#mainContent div[icon~="toilet6"] {
+    margin-left: 28.9em;
+    margin-top: 27.8em;
+}
+
+#mainContent div[icon~="toilet7"] {
+    margin-left: 47.6em;
+    margin-top: 29.4em;
+}
+
+#mainContent div[icon~="workshop"] {
+    margin-left: 53em;
+    margin-top: 34em;
+}
+
+/*********************
+    Info Icons
+*********************/
+#info li[icon~="auditorium"] div {
+    background-image: url("/img/icons/auditoriumIcon.svg");
+}
+#info li[icon~="auditorium"] span:after {
+    content: "Aulan";
+}
+
+
+#info li[icon~="library"] div {
+    background-image: url("/img/icons/libraryIcon.svg");
+}
+#info li[icon~="library"] span:after {
+    content: "Bibliotek";
+}
+
+
+#info li[icon~="entrance"] div {
+    background-image: url("/img/icons/entranceIcon.svg");
+}
+#info li[icon~="entrance"] span:after {
+    content: "In & utgång";
+}
+
+
+#info li[icon~="canteen"] div {
+    background-image: url("/img/icons/canteenIcon.svg");
+}
+#info li[icon~="canteen"] span:after {
+    content: "Matsal";
+}
+
+
+#info li[icon~="coffee"] div {
+    background-image: url("/img/icons/coffeeIcon.svg");
+}
+#info li[icon~="coffee"] span:after {
+    content: "Kafé";
+}
+
+
+#info li[icon~="classroom"] div {
+    background-image: url("/img/icons/classroomIcon.svg");
+}
+#info li[icon~="classroom"] span:after {
+    content: "Klassrum";
+}
+
+
+#info li[icon~="office"] div {
+    background-image: url("/img/icons/officeIcon.svg");
+}
+#info li[icon~="office"] span:after {
+    content: "Lärarrum & Arbetsrum";
+}
+
+
+#info li[icon~="reception"] div {
+    background-image: url("/img/icons/receptionIcon.svg");
+}
+#info li[icon~="reception"] span:after {
+    content: "Reception";
+}
+
+
+ #info li[icon~="toilet"] div {
+    background-image: url("/img/icons/tioletIcon.svg");
+}
+#info li[icon~="toilet"] span:after {
+    content: "Toalett";
+}
+
+
+#info li[icon~="workshop"] div {
+    background-image: url("/img/icons/workshopIcon.svg");
+}
+#info li[icon~="workshop"] span:after {
+    content: "Vekstad";
+}

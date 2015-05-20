@@ -1,0 +1,56 @@
+{
+    "default": {
+        "author": "Daniel Porath & Filip Borg",
+        "autoLoad": true,
+        "autoRotate": "3",
+        "basePath": "../../pano/img/"
+    },
+    
+    "scenes": {
+        "pondCube": {
+            "title": "Jordan Pond (Cube)",
+            "panorama": "pano2.jpeg",
+            "hotSpots": [
+                {
+                    "pitch": -12,
+                    "yaw": -170,
+                    "type": "info",
+                    "text": "This is Jordan Pond, located in Acadia National Park."
+                },
+                {
+                    "pitch": -10,
+                    "yaw": 50,
+                    "type": "info",
+                    "text": "This is a link.",
+                    "URL": "https://github.com/mpetroff/pannellum"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 60,
+                    "type": "scene",
+                    "text": "Pond",
+                    "sceneId": "pond"
+                }
+            ]
+        },
+
+        "t3": {
+            "title": "T3",
+            "panorama": "t3.jpeg",
+            "maxHfov": 100,
+            "minPitch": -15,
+            "maxPitch": 8,
+            "yaw": 300,
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": -100,
+                    "type": "scene",
+                    "text": "Pond (cube)",
+                    "sceneId": "pondCube"
+                }
+            ]
+        }
+    }
+}
+ 
