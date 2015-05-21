@@ -26,10 +26,10 @@ a:visited {
 }
 
 .sphere {
-    height: 14px;
+    height: 15px;
     position: absolute;
     top: -7px;
-    right: -3px;
+    left: 18px;
 }
 
 /*********************
@@ -113,6 +113,14 @@ a:visited {
     transform: scale(1.5);
 }
 
+#photoSphere {
+    transition: fill .3s ease-out;
+}
+
+#mainContent div:hover:not([icon~="office"]) #photoSphere {
+    fill:red;
+}
+
 #mainContent div[icon~="office"] object {
     transition: transform .3s ease-out;
 }
@@ -126,7 +134,7 @@ a:visited {
     color:#ff0000;
 }
 
-#mainContent object {
+#mainContent object:first-child {
     height: 1.5em;
     
 }
