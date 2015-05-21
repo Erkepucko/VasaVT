@@ -253,6 +253,9 @@
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="550.8" y1="185.2" x2="537.1" y2="185.2"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="537.1" y1="191.2" x2="550.8" y2="191.2"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="550.8" y1="191.2" x2="550.8" y2="207.3"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="516.4" y1="141.8" x2="516.4" y2="121"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="516.4" y1="121" x2="476.9" y2="121"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="451.1" y1="121" x2="458.8" y2="121"/>
 </g>
 <g id="Layer_1">
 </g>
