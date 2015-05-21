@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-family: RoboSlab;
     font-size: 100%;
     line-height: 1;
@@ -24,26 +25,18 @@ a:visited {
     height: 1em;
     width: 1em;
 }
-
-.sphere {
-    height: 15px;
-    position: absolute;
-    top: -7px;
-    left: 18px;
-}
-
 /*********************
        Font Face
 *********************/
+
 @font-face {
     font-family: RoboSlab;
     src: url("/font/RobotoSlab-Regular.ttf");
-    
 }
-
 /**********************
         Header
 **********************/
+
 #headContainer {
     min-width: 100%;
     height: auto;
@@ -52,7 +45,8 @@ a:visited {
 
 #head {
     width: 78em;
-    height: 5em;;
+    height: 5em;
+    ;
     margin: 0 auto;
     background-color: beige;
     position: relative;
@@ -83,10 +77,50 @@ a:visited {
     width: 6em;
     margin-right: 2.5em;
 }
-
 /**********************
         Main
 **********************/
+/*photo sphere icon placement*/
+
+div[icon~="classroom"] .sphere {
+    height: 15px;
+    position: absolute;
+    top: -7px;
+    left: 18px;
+}
+
+div[icon^="entrance"] .sphere {
+    height: 15px;
+    position: absolute;
+    top: -9px;
+    left: 15px;
+}
+
+div[icon="library"] .sphere {
+    height: 15px;
+    position: absolute;
+    top: -6px;
+    left: 16px;
+}
+
+div[icon="canteen"] .sphere {
+    height: 15px;
+    position: absolute;
+    top: -10px;
+    left: 14px;
+}
+
+div[icon="auditorium"] .sphere {
+    height: 20px;
+    position: absolute;
+    top: -8px;
+    left: 28px;
+}
+
+#photoSphere {
+    transition: fill .3s ease-out;
+}
+
 #mainContainer {
     width: 78em;
     height: auto;
@@ -111,32 +145,35 @@ a:visited {
 
 #mainContent div:hover:not([icon~="office"]) {
     transform: scale(1.5);
+    z-index: 2;
 }
 
-#photoSphere {
-    transition: fill .3s ease-out;
+#mainContent div:hover #photoSphere {
+    fill: red;
 }
 
-#mainContent div:hover:not([icon~="office"]) #photoSphere {
-    fill:red;
+#mainContent a {
+    color: #1a0dab;
 }
 
 #mainContent div[icon~="office"] object {
     transition: transform .3s ease-out;
 }
 
-#mainContent div[icon~="office"]:hover object {
-    transform: scale(1.5);
-    
+#mainContent div[icon~="office"]:hover {
+    z-index: 2;
 }
 
-#mainContent div:hover p {
-    color:#ff0000;
+#mainContent div[icon~="office"]:hover object {
+    transform: scale(1.5);
+}
+
+#mainContent div:hover:not[icon~="office"] p {
+    color: #ff0000;
 }
 
 #mainContent object:first-child {
     height: 1.5em;
-    
 }
 
 #mainContent div[icon~="classroom"] p {
@@ -153,7 +190,6 @@ a:visited {
     font-size: 0em;
     transition: font-size .3s ease-out, color .5s ease-out;
 }
-
 /*#mainContent div[icon~="office"] p:first-of-type {
     margin-top: 0em;
 }*/
@@ -161,11 +197,12 @@ a:visited {
 #mainContent div[icon~="office"]:hover p {
     font-size: 1em;
     transition-delay: .1s;
+    background-color: white;
 }
-
 /*****************
     Main Info
 *****************/
+
 #mainInfo {
     float: left;
     height: 42em;
@@ -173,7 +210,6 @@ a:visited {
     background-color: coral;
     overflow: auto;
 }
-
 
 #info {
     margin-left: 1em;
@@ -200,12 +236,10 @@ a:visited {
     display: table-cell;
     vertical-align: middle;
 }
-
-    
-
 /*********************
         Footer
 *********************/
+
 #footerContainer {
     min-width: 100%;
     background-color: chartreuse;
@@ -215,36 +249,31 @@ a:visited {
 #footerContainer footer {
     width: 78em;
     margin: 0 auto;
-    background-color:bisque; 
+    background-color: bisque;
 }
-
 /*********************
  Media query <1265px
         Tablet
 *********************/
+
 @media (max-width: 1265px) {
     #head {
         width: 62.4em;
     }
-    
     #mainContainer {
         height: auto;
         width: 62.4em;
     }
-    
-     #mainContent{
-         float: none;
-         width: 100%;
-         height: 42em;
+    #mainContent {
+        float: none;
+        width: 100%;
+        height: 42em;
     }
-    
     #mainInfo {
         float: none;
         width: 100%;
         height: auto;
-        
     }
-    
     #info {
         margin-left: 0;
         text-align: center;
@@ -252,7 +281,6 @@ a:visited {
         -webkit-columns: 3;
         -moz-columns: 3;
     }
-    
     #footerContainer footer {
         width: 62.4em;
     }
