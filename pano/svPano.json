@@ -3,6 +3,9 @@
         "author": "Daniel Porath & Filip Borg",
         "autoLoad": true,
         "autoRotate": "3",
+        "pitch": 40,
+        "hfov": 90,
+        "maxHfov": 90,
         "basePath": "../../pano/img/"
     },
 
@@ -37,14 +40,552 @@
         "a1": {
             "title": "A1",
             "panorama": "a1.jpeg",
-            "maxHfov": 90,
-            "minPitch": -85,
-            "maxPitch": 85,
-            "yaw": 300,
+            "maxPitch": 13,
+            "minPitch": -20,
+            "yaw": 30,
             "hotSpots": [
                 {
-                    "pitch": 0,
-                    "yaw": -100,
+                    "pitch": 15,
+                    "yaw": 21,
+                    "type": "scene",
+                    "text": "Entre",
+                    "sceneId": "mainEntrance"
+                }
+            ]
+        },
+        "a2": {
+            "title": "A2",
+            "panorama": "a2.jpeg",
+            "maxPitch": 12,
+            "minPitch": -20,
+            "yaw": 60,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -48,
+                    "type": "scene",
+                    "text": "Entre",
+                    "sceneId": "mainEntrance"
+                }
+            ]
+        },
+        "a3": {
+            "title": "A3",
+            "panorama": "a3.jpeg",
+            "maxPitch": 12,
+            "minPitch": -20,
+            "yaw": -90,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 163,
+                    "type": "scene",
+                    "text": "Entre",
+                    "sceneId": "mainEntrance"
+                }
+            ]
+        },
+        "b1": {
+            "title": "B1",
+            "panorama": "b1.jpeg",
+            "maxPitch": 10,
+            "minPitch": -18,
+            "yaw": 200,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 172,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b2": {
+            "title": "B2",
+            "panorama": "b2.jpeg",
+            "maxPitch": 12,
+            "minPitch": -20,
+            "yaw": 180,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 190,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b3": {
+            "title": "B3",
+            "panorama": "b3.jpeg",
+            "maxPitch": 10,
+            "minPitch": -19,
+            "yaw": -90,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 134,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b4": {
+            "title": "Tyst studierum",
+            "panorama": "b4.jpeg",
+            "maxPitch": 12,
+            "minPitch": -19,
+            "yaw": 180,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 210,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b5": {
+            "title": "B5",
+            "panorama": "b5.jpeg",
+            "maxPitch": 11,
+            "minPitch": -20,
+            "yaw": 180,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 213,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b6": {
+            "title": "B6",
+            "panorama": "b6.jpeg",
+            "maxPitch": 12,
+            "minPitch": -19,
+            "yaw": 180,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 197,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b7": {
+            "title": "B7",
+            "panorama": "b7.jpeg",
+            "maxPitch": 11,
+            "minPitch": -20,
+            "yaw": -130,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 140,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b8": {
+            "title": "B8",
+            "panorama": "b8.jpeg",
+            "maxPitch": 11,
+            "minPitch": -20,
+            "yaw": -160,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 150,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b9": {
+            "title": "B9",
+            "panorama": "b9.jpeg",
+            "maxPitch": 10,
+            "minPitch": -18,
+            "yaw": 0,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -34,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b10": {
+            "title": "B10",
+            "panorama": "b10.jpeg",
+            "maxPitch": 11,
+            "minPitch": -19,
+            "yaw": 0,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 113,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b13": {
+            "title": "B13",
+            "panorama": "b13.jpeg",
+            "maxPitch": 7,
+            "minPitch": -18,
+            "yaw": 0,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 36,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "b14": {
+            "title": "B14",
+            "panorama": "b14.jpeg",
+            "maxPitch": 11,
+            "minPitch": -19,
+            "yaw": 180,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 182,
+                    "type": "scene",
+                    "text": "?????",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "canteen": {
+            "title": "Matsal",
+            "panorama": "canteen.jpeg",
+            "maxPitch": 12,
+            "minPitch": -20,
+            "yaw": -90,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 152,
+                    "type": "scene",
+                    "text": "?????",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "e1": {
+            "title": "Bildsalen E1",
+            "panorama": "e1.jpeg",
+            "maxPitch": 13,
+            "minPitch": -21,
+            "yaw": -90,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 120,
+                    "type": "scene",
+                    "text": "?????",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "e3": {
+            "title": "Musiksalen E3",
+            "panorama": "e3.jpeg",
+            "maxPitch": 12,
+            "minPitch": -20,
+            "yaw": 200,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -213,
+                    "type": "scene",
+                    "text": "?????",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "hangOut": {
+            "title": "????",
+            "panorama": "hangOut.jpeg",
+            "maxPitch": 12,
+            "minPitch": -20,
+            "yaw": 170,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -48,
+                    "type": "scene",
+                    "text": "??????",
+                    "sceneId": "??????"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": -190,
+                    "type": "scene",
+                    "text": "?????",
+                    "sceneId": "????"
+                }
+            ]
+        },
+        "mainEntrance": {
+            "title": "Huvudingång",
+            "panorama": "mainEntrance.jpeg",
+            "maxPitch": 11,
+            "minPitch": -19,
+            "yaw": 200,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -226,
+                    "type": "scene",
+                    "text": "A2",
+                    "sceneId": "a2"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": -214,
+                    "type": "scene",
+                    "text": "A1",
+                    "sceneId": "a1"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": -180,
+                    "type": "scene",
+                    "text": "???????????",
+                    "sceneId": "?????????"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": 303,
+                    "type": "scene",
+                    "text": "Bibliotek",
+                    "sceneId": "?????????"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": 316,
+                    "type": "scene",
+                    "text": "A3",
+                    "sceneId": "a3"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": 38,
+                    "type": "scene",
+                    "text": "?????????????????",
+                    "sceneId": "??????????????????"
+                }
+            ]
+        },
+        "n1": {
+            "title": "N1",
+            "panorama": "n1.jpeg",
+            "maxPitch": 13,
+            "minPitch": -21,
+            "yaw": 50,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -27,
+                    "type": "scene",
+                    "text": "??????????????????",
+                    "sceneId": "??????"
+                }
+            ]
+        },
+        "n2": {
+            "title": "N2",
+            "panorama": "n2.jpeg",
+            "maxPitch": 11,
+            "minPitch": -20,
+            "yaw": 140,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -128,
+                    "type": "scene",
+                    "text": "??????????????????",
+                    "sceneId": "??????"
+                }
+            ]
+        },
+        "n3": {
+            "title": "N3",
+            "panorama": "n3.jpeg",
+            "maxPitch": 13,
+            "minPitch": -21,
+            "yaw": 60,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -48,
+                    "type": "scene",
+                    "text": "??????????????????",
+                    "sceneId": "??????"
+                }
+            ]
+        },
+        "n4": {
+            "title": "N4",
+            "panorama": "n4.jpeg",
+            "maxPitch": 12,
+            "minPitch": -20,
+            "yaw": 180,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 8,
+                    "type": "scene",
+                    "text": "??????????????????",
+                    "sceneId": "r4"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": 220,
+                    "type": "scene",
+                    "text": "?????",
+                    "sceneId": "????????"
+                }
+            ]
+        },
+        "n5": {
+            "title": "N5",
+            "panorama": "n5.jpeg",
+            "maxPitch": 12,
+            "minPitch": -19,
+            "yaw": 0,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 15,
+                    "type": "scene",
+                    "text": "??????????????????",
+                    "sceneId": "r4"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": 137,
+                    "type": "scene",
+                    "text": "?????",
+                    "sceneId": "????????"
+                }
+            ]
+        },
+        "n7": {
+            "title": "N7",
+            "panorama": "n7.jpeg",
+            "maxPitch": 12,
+            "minPitch": -20,
+            "yaw": 180,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": 65,
+                    "type": "scene",
+                    "text": "??????????????????",
+                    "sceneId": "r4"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": 177,
+                    "type": "scene",
+                    "text": "??????????????????",
+                    "sceneId": "??????????????"
+                }
+            ]
+        },
+        "r2": {
+            "title": "Aulan",
+            "panorama": "r2.jpeg",
+            "maxPitch": 10,
+            "minPitch": -19,
+            "yaw": 20,
+            "hotSpots": [
+                {
+                    "pitch": 3,
+                    "yaw": 62,
+                    "type": "scene",
+                    "text": "???????????????????",
+                    "sceneId": "?????????????????????"
+                }
+            ]
+        },
+        "r4": {
+            "title": "?????????????????????????????",
+            "panorama": "r4.jpeg",
+            "maxPitch": 13,
+            "minPitch": -20,
+            "yaw": 200,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -125,
+                    "type": "scene",
+                    "text": "???????????????????",
+                    "sceneId": "?????????????????????"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": -191,
+                    "type": "scene",
+                    "text": "N4",
+                    "sceneId": "n4"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": -210,
+                    "type": "scene",
+                    "text": "Kemisalen",
+                    "sceneId": "n5"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": 31,
+                    "type": "scene",
+                    "text": "N6",
+                    "sceneId": "n6"
+                },
+                {
+                    "pitch": 15,
+                    "yaw": 19,
+                    "type": "scene",
+                    "text": "N7",
+                    "sceneId": "n7"
+                }
+            ]
+        },
+        "t2": {
+            "title": "T2",
+            "panorama": "t2.jpeg",
+            "maxPitch": 12,
+            "minPitch": -19,
+            "yaw": 150,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -145,
                     "type": "scene",
                     "text": "Pond (cube)",
                     "sceneId": "pondCube"
@@ -54,34 +595,48 @@
         "t3": {
             "title": "T3",
             "panorama": "t3.jpeg",
-            "maxHfov": 100,
-            "minPitch": -15,
-            "maxPitch": 8,
-            "yaw": 300,
+            "maxPitch": 12,
+            "minPitch": -20,
+            "yaw": 200,
             "hotSpots": [
                 {
-                    "pitch": 0,
-                    "yaw": -100,
+                    "pitch": 15,
+                    "yaw": -178,
                     "type": "scene",
                     "text": "Pond (cube)",
                     "sceneId": "pondCube"
                 }
             ]
         },
+        "t4": {
+            "title": "T4",
+            "panorama": "t4.jpeg",
+            "maxPitch": 11,
+            "minPitch": -18,
+            "yaw": 120,
+            "hotSpots": [
+                {
+                    "pitch": 15,
+                    "yaw": -114,
+                    "type": "scene",
+                    "text": "?????????????????",
+                    "sceneId": "???????????????????"
+                }
+            ]
+        },
         "t5": {
             "title": "T5",
             "panorama": "t5.jpeg",
-            "maxHfov": 100,
-            "minPitch": -15,
-            "maxPitch": 8,
-            "yaw": 300,
+            "maxPitch": 12,
+            "minPitch": -22,
+            "yaw": 230,
             "hotSpots": [
                 {
-                    "pitch": 0,
-                    "yaw": -100,
+                    "pitch": 15,
+                    "yaw": -187,
                     "type": "scene",
-                    "text": "Pond (cube)",
-                    "sceneId": "pondCube"
+                    "text": "?????????????????",
+                    "sceneId": "???????????????????"
                 }
             ]
         }
