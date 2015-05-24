@@ -5,7 +5,7 @@
         "autoRotate": "3",
         "basePath": "../../pano/img/"
     },
-    
+
     "scenes": {
         "pondCube": {
             "title": "Jordan Pond (Cube)",
@@ -34,6 +34,23 @@
             ]
         },
 
+        "a1": {
+            "title": "A1",
+            "panorama": "a1.jpeg",
+            "maxHfov": 90,
+            "minPitch": -85,
+            "maxPitch": 85,
+            "yaw": 300,
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": -100,
+                    "type": "scene",
+                    "text": "Pond (cube)",
+                    "sceneId": "pondCube"
+                }
+            ]
+        },
         "t3": {
             "title": "T3",
             "panorama": "t3.jpeg",
@@ -50,7 +67,23 @@
                     "sceneId": "pondCube"
                 }
             ]
+        },
+        "t5": {
+            "title": "T5",
+            "panorama": "t5.jpeg",
+            "maxHfov": 100,
+            "minPitch": -15,
+            "maxPitch": 8,
+            "yaw": 300,
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": -100,
+                    "type": "scene",
+                    "text": "Pond (cube)",
+                    "sceneId": "pondCube"
+                }
+            ]
         }
     }
 }
- 
