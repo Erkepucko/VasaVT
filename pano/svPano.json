@@ -10,9 +10,9 @@
     },
 
     "scenes": {
-        "pondCube": {
+        "test": {
             "title": "Jordan Pond (Cube)",
-            "panorama": "pano2.jpeg",
+            "panorama": "b10.jpeg",
             "hotSpots": [
                 {
                     "pitch": -12,
