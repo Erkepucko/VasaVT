@@ -9,7 +9,7 @@ selected with the attribute "icon"
     width: 2.5em;
 }
 
-#mainContent div[icon~="auditorium"] object {
+#mainContent div[icon~="auditorium"] img {
     width: 3em;
     height: 3em;
 }
@@ -40,7 +40,7 @@ selected with the attribute "icon"
     margin-top: 34em;
 }
 
-#mainContent div[icon~="coffee"] {
+#mainContent div[icon~="cafe"] {
     margin-left: 28.5em;
     margin-top: 36em;
 }
@@ -109,7 +109,7 @@ selected with the attribute "icon"
 
 #mainContent div[icon~="classroom"][room~="b12"] {
     margin-left: 17em;
-    margin-top: 19.8em;
+    margin-top: 20em;
 }
 
 #mainContent div[icon~="classroom"][room~="b13"] {
@@ -241,14 +241,14 @@ selected with the attribute "icon"
     margin-top: 30.6em;
 }
 
-#mainContent div[icon~="classroom"][room~="bCorridor"] {
-    margin-left: 15.6em;
+#mainContent div[icon~="classroom"][room~="bCorridorLower"] {
+    margin-left: 15.4em;
     margin-top: 24em;
 }
 
-#mainContent div[icon~="classroom"][room~="bCorridor2"] {
-    margin-left: 15.6em;
-    margin-top: 15.7em;
+#mainContent div[icon~="classroom"][room~="bCorridorUpper"] {
+    margin-left: 15.4em;
+    margin-top: 15.6em;
 }
 
 #mainContent div[icon~="classroom"][room~="eCorridor"] {
@@ -256,12 +256,12 @@ selected with the attribute "icon"
     margin-top: 9.6em;
 }
 
-#mainContent div[icon~="classroom"][room~="tCorridor"] {
-    margin-left: 37em;
+#mainContent div[icon~="classroom"][room~="tCorridorLower"] {
+    margin-left: 36.8em;
     margin-top: 9.25em;
 }
 
-#mainContent div[icon~="classroom"][room~="tCorridor2"] {
+#mainContent div[icon~="classroom"][room~="tCorridorUpper"] {
     margin-left: 45.1em;
     margin-top: 9.7em;
 }
@@ -269,6 +269,11 @@ selected with the attribute "icon"
 #mainContent div[icon~="classroom"][room~="hangOut"] {
     margin-left: 41.5em;
     margin-top: 11.4em;
+}
+
+#mainContent div[icon~="classroom"][room~="outside"] {
+    margin-left: 3em;
+    margin-top: 36em;
 }
 /* Lärarrum */
 
@@ -293,7 +298,7 @@ selected with the attribute "icon"
 }
 
 #mainContent div[icon~="office"][room~="la2"] {
-    margin-left: 28.9em;
+    margin-left: 28.7em;
     margin-top: 20em;
 }
 
@@ -303,7 +308,7 @@ selected with the attribute "icon"
 }
 
 #mainContent div[icon~="office"][room~="la6"] {
-    margin-left: 28.9em;
+    margin-left: 28.7em;
     margin-top: 26.2em;
 }
 
@@ -313,12 +318,12 @@ selected with the attribute "icon"
 }
 
 #mainContent div[icon~="office"][room~="la10"] {
-    margin-left: 24.2em;
+    margin-left: 24.0em;
     margin-top: 17em;
 }
 
 #mainContent div[icon~="office"][room~="la11"] {
-    margin-left: 24.2em;
+    margin-left: 24.0em;
     margin-top: 14.5em;
 }
 
@@ -333,7 +338,7 @@ selected with the attribute "icon"
 }
 
 #mainContent div[icon~="office"][room~="stig"] {
-    margin-left: 18.2em;
+    margin-left: 18.0em;
     margin-top: 24.6em;
 }
 
@@ -353,7 +358,7 @@ selected with the attribute "icon"
 }
 
 #mainContent div[icon~="office"][room~="ea2"] {
-    margin-left: 20.2em;
+    margin-left: 19.9em;
     margin-top: 6.2em;
 }
 
@@ -419,78 +424,42 @@ selected with the attribute "icon"
     background-image: url("/img/icons/auditoriumIcon.svg");
 }
 
-#info li[icon~="auditorium"] span:after {
-    content: "Aulan";
-}
-
 #info li[icon~="library"] div {
     background-image: url("/img/icons/libraryIcon.svg");
-}
-
-#info li[icon~="library"] span:after {
-    content: "Bibliotek";
 }
 
 #info li[icon~="entrance"] div {
     background-image: url("/img/icons/entranceIcon.svg");
 }
 
-#info li[icon~="entrance"] span:after {
-    content: "In & utgång";
-}
-
 #info li[icon~="canteen"] div {
     background-image: url("/img/icons/canteenIcon.svg");
 }
 
-#info li[icon~="canteen"] span:after {
-    content: "Matsal";
-}
-
-#info li[icon~="coffee"] div {
-    background-image: url("/img/icons/coffeeIcon.svg");
-}
-
-#info li[icon~="coffee"] span:after {
-    content: "Kafé";
+#info li[icon~="cafe"] div {
+    background-image: url("/img/icons/cafeIcon.svg");
 }
 
 #info li[icon~="classroom"] div {
     background-image: url("/img/icons/classroomIcon.svg");
 }
 
-#info li[icon~="classroom"] span:after {
-    content: "Klassrum";
-}
-
 #info li[icon~="office"] div {
     background-image: url("/img/icons/officeIcon.svg");
-}
-
-#info li[icon~="office"] span:after {
-    content: "Lärarrum & Arbetsrum";
 }
 
 #info li[icon~="reception"] div {
     background-image: url("/img/icons/receptionIcon.svg");
 }
 
-#info li[icon~="reception"] span:after {
-    content: "Reception";
+#info li[icon~="pano"] div {
+    background-image: url("/img/icons/photoSphere.svg");
 }
 
 #info li[icon~="toilet"] div {
     background-image: url("/img/icons/tioletIcon.svg");
 }
 
-#info li[icon~="toilet"] span:after {
-    content: "Toalett";
-}
-
 #info li[icon~="workshop"] div {
     background-image: url("/img/icons/workshopIcon.svg");
-}
-
-#info li[icon~="workshop"] span:after {
-    content: "Vekstad";
 }

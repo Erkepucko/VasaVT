@@ -14,16 +14,22 @@ body {
 
 a {
     color: black;
+    text-decoration: underline;
 }
 
 a:visited {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .small {
-    height: 1em;
-    width: 1em;
+    -webkit-transform: scale(.7);
+    -ms-transform: scale(.7);
+    transform: scale(.7);
+}
+
+.link:hover {
+    cursor: pointer;
 }
 /*********************
        Font Face
@@ -40,21 +46,21 @@ a:visited {
 #headContainer {
     min-width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: #cecece;
 }
 
 #head {
     width: 78em;
     height: 5em;
-    ;
     margin: 0 auto;
-    background-color: beige;
     position: relative;
 }
 
 #headLeft {
     position: absolute;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 0;
     width: auto;
@@ -68,9 +74,17 @@ a:visited {
 #headRight {
     position: absolute;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     right: 0;
     width: auto;
+}
+
+#headRight a:first-of-type {
+    position: absolute;
+    display: inline-block;
+    margin: 1.4em -6em;;
 }
 
 #headRight img {
@@ -118,6 +132,7 @@ div[icon="auditorium"] .sphere {
 }
 
 #photoSphere {
+    -webkit-transition: fill .3s ease-out;
     transition: fill .3s ease-out;
 }
 
@@ -125,25 +140,50 @@ div[icon="auditorium"] .sphere {
     width: 78em;
     height: auto;
     margin: 0 auto;
-    background-color: black;
 }
 
 #mainContent {
     background-image: url("/img/icons/map.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
     height: 42em;
     width: 80%;
     float: right;
-    background-color: azure;
+}
+
+#iframe {
+    position: absolute;
+    z-index: 3;
+    display: none;
+}
+
+#closeButton {
+    display: none;
+    -webkit-transition: all .3s cubic-bezier(.3, .9, .79, -0.09);
+    transition: all .3s cubic-bezier(.3, .9, .79, -0.09);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 1;
+    z-index: 5;
+}
+
+#closeButton:hover {
+    -webkit-transform: rotate(180deg) scale(3);
+    -ms-transform: rotate(180deg) scale(3);
+    transform: rotate(180deg) scale(3);
 }
 
 #mainContent div {
     position: absolute;
+    -webkit-transition: -webkit-transform .3s ease-out;
     transition: transform .3s ease-out;
 }
 
-#mainContent div:hover:not([icon~="office"]) {
+#mainContent div:hover:not(#closeButton):not([icon~="office"]) {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
     transform: scale(1.5);
     z-index: 2;
 }
@@ -152,11 +192,16 @@ div[icon="auditorium"] .sphere {
     fill: red;
 }
 
-#mainContent a {
-    color: #1a0dab;
+#mainContent img {
+    height: 100%;
 }
 
-#mainContent div[icon~="office"] object {
+#mainContent a {
+    color: #fa2525;
+}
+
+#mainContent div[icon~="office"] img {
+    -webkit-transition: -webkit-transform .3s ease-out;
     transition: transform .3s ease-out;
 }
 
@@ -164,7 +209,9 @@ div[icon="auditorium"] .sphere {
     z-index: 2;
 }
 
-#mainContent div[icon~="office"]:hover object {
+#mainContent div[icon~="office"]:hover img {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
     transform: scale(1.5);
 }
 
@@ -172,11 +219,12 @@ div[icon="auditorium"] .sphere {
     color: #ff0000;
 }
 
-#mainContent object:first-child {
+#mainContent img:first-child {
     height: 1.5em;
 }
 
 #mainContent div[icon~="classroom"] p {
+    -webkit-transition: color .5s ease-out;
     transition: color .5s ease-out;
     font-size: 1em;
     font-weight: 600;
@@ -188,6 +236,7 @@ div[icon="auditorium"] .sphere {
     margin-top: .3em;
     margin-left: -.6em;
     font-size: 0em;
+    -webkit-transition: font-size .3s ease-out, color .5s ease-out;
     transition: font-size .3s ease-out, color .5s ease-out;
 }
 /*#mainContent div[icon~="office"] p:first-of-type {
@@ -196,6 +245,7 @@ div[icon="auditorium"] .sphere {
 
 #mainContent div[icon~="office"]:hover p {
     font-size: 1em;
+    -webkit-transition-delay: .1s;
     transition-delay: .1s;
     background-color: white;
 }
@@ -207,8 +257,8 @@ div[icon="auditorium"] .sphere {
     float: left;
     height: 42em;
     width: 20%;
-    background-color: coral;
     overflow: auto;
+    border-right: 1px solid black;
 }
 
 #info {
@@ -241,15 +291,25 @@ div[icon="auditorium"] .sphere {
 *********************/
 
 #footerContainer {
+    position: fixed;
+    bottom: 0px;
     min-width: 100%;
-    background-color: chartreuse;
     height: auto;
+    background-color: #cecece;
 }
 
 #footerContainer footer {
     width: 78em;
     margin: 0 auto;
-    background-color: bisque;
+}
+
+#copy {
+    padding: 4em;
+    text-align: center;
+}
+
+#copy p:first-of-type {
+    font-size: .6em;
 }
 /*********************
  Media query <1265px
@@ -273,6 +333,7 @@ div[icon="auditorium"] .sphere {
         float: none;
         width: 100%;
         height: auto;
+        border: none;
     }
     #info {
         margin-left: 0;
@@ -280,6 +341,9 @@ div[icon="auditorium"] .sphere {
         columns: 3;
         -webkit-columns: 3;
         -moz-columns: 3;
+    }
+    #footerContainer {
+        position: relative;
     }
     #footerContainer footer {
         width: 62.4em;

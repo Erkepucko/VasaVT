@@ -23,7 +23,7 @@
                     "yaw": 21,
                     "targetYaw": -140,
                     "type": "scene",
-                    "text": "Entré",
+                    "text": "Entrance",
                     "sceneId": "mainEntrance"
                 }
             ]
@@ -40,7 +40,7 @@
                     "yaw": -48,
                     "targetYaw": -130,
                     "type": "scene",
-                    "text": "Entré",
+                    "text": "Entrance",
                     "sceneId": "mainEntrance"
                 }
             ]
@@ -57,7 +57,7 @@
                     "yaw": 163,
                     "targetYaw": 50,
                     "type": "scene",
-                    "text": "Entré",
+                    "text": "Entrance",
                     "sceneId": "mainEntrance"
                 }
             ]
@@ -74,7 +74,7 @@
                     "yaw": 172,
                     "targetYaw": 79,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 }
             ]
@@ -91,7 +91,7 @@
                     "yaw": 190,
                     "targetYaw": 139,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 }
             ]
@@ -108,7 +108,7 @@
                     "yaw": 134,
                     "targetYaw": 150,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 }
             ]
@@ -125,7 +125,7 @@
                     "yaw": 210,
                     "targetYaw": 148,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 }
             ]
@@ -142,7 +142,7 @@
                     "yaw": 213,
                     "targetYaw": 159,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 }
             ]
@@ -159,7 +159,7 @@
                     "yaw": 197,
                     "targetYaw": 197,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 }
             ]
@@ -167,8 +167,8 @@
         "b7": {
             "title": "B7",
             "panorama": "b7.jpeg",
-            "maxPitch": 10,
-            "minPitch": -18.5,
+            "maxPitch": 11,
+            "minPitch": -20,
             "yaw": -140,
             "hotSpots": [
                 {
@@ -176,7 +176,7 @@
                     "yaw": 140,
                     "targetYaw": 220,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 }
             ]
@@ -193,7 +193,7 @@
                     "yaw": 150,
                     "targetYaw": 228,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 }
             ]
@@ -210,7 +210,7 @@
                     "yaw": -34,
                     "targetYaw": -82,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 }
             ]
@@ -227,7 +227,7 @@
                     "yaw": 113,
                     "targetYaw": 32,
                     "type": "scene",
-                    "text": "B Korridor",
+                    "text": "B Corridor",
                     "sceneId": "bCorridorUpper"
                 }
             ]
@@ -244,7 +244,7 @@
                     "yaw": 36,
                     "type": "scene",
                     "targetYaw": 120,
-                    "text": "B Korridor",
+                    "text": "B Corridor",
                     "sceneId": "bCorridorLower"
                 }
             ]
@@ -261,13 +261,13 @@
                     "yaw": 182,
                     "targetYaw": -96,
                     "type": "scene",
-                    "text": "B korridor",
+                    "text": "B Corridor",
                     "sceneId": "bCorridorLower"
                 }
             ]
         },
         "bCorridorLower": {
-            "title": "B Korridor",
+            "title": "B Corridor",
             "panorama": "bCorridorLower.jpeg",
             "maxPitch": 11,
             "minPitch": -19,
@@ -278,7 +278,7 @@
                     "yaw": 90,
                     "targetYaw": -2,
                     "type": "scene",
-                    "text": "Utanför Aulan",
+                    "text": "Outside Auditorium",
                     "sceneId": "outsideR2"
                 },
                 {
@@ -286,7 +286,7 @@
                     "yaw": 0,
                     "targetYaw": 74,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 },
                 {
@@ -294,7 +294,7 @@
                     "yaw": -88,
                     "targetYaw": -2,
                     "type": "scene",
-                    "text": "Sidoingång",
+                    "text": "Side Entrance",
                     "sceneId": "sideEntrance"
                 },
                 {
@@ -314,7 +314,7 @@
             ]
         },
         "bCorridorUpper": {
-            "title": "B Korridor",
+            "title": "B Corridor",
             "panorama": "bCorridorUpper.jpeg",
             "maxPitch": 11,
             "minPitch": -19,
@@ -325,7 +325,7 @@
                     "yaw": 0,
                     "targetYaw": -2,
                     "type": "scene",
-                    "text": "Sidoingång",
+                    "text": "Side Entrance",
                     "sceneId": "sideEntrance"
                 },
                 {
@@ -340,7 +340,7 @@
                     "yaw": 90,
                     "targetYaw": -76,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 },
                 {
@@ -348,13 +348,13 @@
                     "yaw": -182,
                     "targetYaw": -2,
                     "type": "scene",
-                    "text": "Utanför Aulan",
+                    "text": "Outside Auditorium",
                     "sceneId": "outsideR2"
                 }
             ]
         },
         "library": {
-            "title": "Bibliotek",
+            "title": "Library",
             "panorama": "library.jpeg",
             "maxPitch": 8,
             "minPitch": -17.5,
@@ -365,7 +365,7 @@
                     "yaw": -74,
                     "targetYaw": 1,
                     "type": "scene",
-                    "text": "B Korridor",
+                    "text": "B Corridor",
                     "sceneId": "bCorridorLower"
                 },
                 {
@@ -394,7 +394,7 @@
                     "yaw": -139,
                     "targetYaw": -303,
                     "type": "scene",
-                    "text": "Entré",
+                    "text": "Entrance",
                     "sceneId": "mainEntrance"
                 },
                 {
@@ -444,7 +444,7 @@
                     "yaw": 76,
                     "targetYaw": -90,
                     "type": "scene",
-                    "text": "B Korridor",
+                    "text": "B Corridor",
                     "sceneId": "bCorridorUpper"
                 }
             ]
@@ -461,7 +461,7 @@
                     "yaw": 152,
                     "targetYaw": -115,
                     "type": "scene",
-                    "text": "Utanför Matsalen",
+                    "text": "Outside Canteen",
                     "sceneId": "outsideCanteen"
                 }
             ]
@@ -484,7 +484,7 @@
             ]
         },
         "e3": {
-            "title": "Musiksalen E3",
+            "title": "Music room E3",
             "panorama": "e3.jpeg",
             "maxPitch": 12,
             "minPitch": -20,
@@ -495,13 +495,13 @@
                     "yaw": -213,
                     "targetYaw": -112,
                     "type": "scene",
-                    "text": "Sidoingång",
+                    "text": "Side Entrance",
                     "sceneId": "sideEntrance"
                 }
             ]
         },
         "eCorridor": {
-            "title": "E Korridor",
+            "title": "E Corridor",
             "panorama": "eCorridor.jpeg",
             "maxPitch": 11,
             "minPitch": -21.5,
@@ -512,14 +512,14 @@
                     "yaw": -95,
                     "targetYaw": -95,
                     "type": "scene",
-                    "text": "Sidoingång",
+                    "text": "Side Entrance",
                     "sceneId": "sideEntrance"
                 },
                 {
                     "pitch": 13,
                     "yaw": -101,
                     "type": "scene",
-                    "text": "Musiksalen",
+                    "text": "Music room",
                     "sceneId": "e3"
                 },
                 {
@@ -534,7 +534,7 @@
                     "yaw": 86,
                     "targetYaw": 5,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorLower"
                 },
                 {
@@ -542,7 +542,7 @@
                     "yaw": -3,
                     "targetYaw": 4,
                     "type": "scene",
-                    "text": "Utanför Matsalen",
+                    "text": "Outside Canteen",
                     "sceneId": "outsideCanteen"
                 }
             ]
@@ -559,7 +559,7 @@
                     "yaw": -48,
                     "targetYaw": 190,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorLower"
                 },
                 {
@@ -567,7 +567,7 @@
                     "yaw": -190,
                     "targetYaw": -111,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorUpper"
                 }
             ]
@@ -598,7 +598,7 @@
                     "yaw": -180,
                     "targetYaw": -97,
                     "type": "scene",
-                    "text": "Utanför Aulan",
+                    "text": "Outside Auditorium",
                     "sceneId": "outsideR2"
                 },
                 {
@@ -606,7 +606,7 @@
                     "yaw": 303,
                     "targetYaw": 139,
                     "type": "scene",
-                    "text": "Bibliotek",
+                    "text": "Library",
                     "sceneId": "library"
                 },
                 {
@@ -620,7 +620,7 @@
                     "pitch": 15,
                     "yaw": 38,
                     "type": "scene",
-                    "text": "Utanför Entrén",
+                    "text": "Outside Entrance",
                     "sceneId": "outside"
                 }
             ]
@@ -637,7 +637,7 @@
                     "yaw": -27,
                     "targetYaw": 2,
                     "type": "scene",
-                    "text": "N Korridor",
+                    "text": "N Corridor",
                     "sceneId": "nCorridor"
                 }
             ]
@@ -654,7 +654,7 @@
                     "yaw": -128,
                     "targetYaw": -235,
                     "type": "scene",
-                    "text": "N Korridor",
+                    "text": "N Corridor",
                     "sceneId": "nCorridor"
                 }
             ]
@@ -671,7 +671,7 @@
                     "yaw": -48,
                     "targetYaw": -190,
                     "type": "scene",
-                    "text": "N Korridor",
+                    "text": "N Corridor",
                     "sceneId": "nCorridor"
                 }
             ]
@@ -696,7 +696,7 @@
                     "yaw": 220,
                     "targetYaw": -180,
                     "type": "scene",
-                    "text": "N Korridor",
+                    "text": "N Corridor",
                     "sceneId": "nCorridor"
                 }
             ]
@@ -721,7 +721,7 @@
                     "yaw": 137,
                     "targetYaw": -134,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorUpper"
                 }
             ]
@@ -738,7 +738,7 @@
                     "yaw": -5,
                     "targetYaw": -137,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorUpper"
                 },
                 {
@@ -771,13 +771,13 @@
                     "yaw": 177,
                     "targetYaw": -7,
                     "type": "scene",
-                    "text": "N Korridor",
+                    "text": "N Corridor",
                     "sceneId": "nCorridor"
                 }
             ]
         },
         "nCorridor": {
-            "title": "N Korridor",
+            "title": "N Corridor",
             "panorama": "nCorridor.jpeg",
             "maxPitch": 11,
             "minPitch": -19,
@@ -803,7 +803,7 @@
                     "yaw": 186,
                     "targetYaw": -86,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorLower"
                 },
                 {
@@ -837,7 +837,7 @@
             ]
         },
         "outside": {
-            "title": "Utanför Entrén",
+            "title": "Outside Entrance",
             "panorama": "outside.jpeg",
             "maxPitch": 12,
             "minPitch": -19,
@@ -849,13 +849,13 @@
                     "targetYaw": -20,
                     "targetYaw": -38,
                     "type": "scene",
-                    "text": "Entré",
+                    "text": "Entrance",
                     "sceneId": "mainEntrance"
                 }
             ]
         },
         "outsideCanteen": {
-            "title": "Utanför Matsalen",
+            "title": "Outside Canteen",
             "panorama": "outsideCanteen.jpeg",
             "maxPitch": 13,
             "minPitch": -22,
@@ -866,7 +866,7 @@
                     "yaw": -4,
                     "targetYaw": 3,
                     "type": "scene",
-                    "text": "E Korridor",
+                    "text": "E Corridor",
                     "sceneId": "eCorridor"
                 },
                 {
@@ -874,7 +874,7 @@
                     "yaw": 88,
                     "targetYaw": 90,
                     "type": "scene",
-                    "text": "Utanför Aulan",
+                    "text": "Outside Auditorium",
                     "sceneId": "outsideR2"
                 },
                 {
@@ -887,7 +887,7 @@
             ]
         },
         "outsideR2": {
-            "title": "Utanför Aulan",
+            "title": "Outside Auditorium",
             "panorama": "outsideR2.jpeg",
             "maxPitch": 12,
             "minPitch": -20,
@@ -898,7 +898,7 @@
                     "yaw": -90,
                     "targetYaw": -88,
                     "type": "scene",
-                    "text": "Utanför Matsalen",
+                    "text": "Outside Canteen",
                     "sceneId": "outsideCanteen"
                 },
                 {
@@ -906,7 +906,7 @@
                     "yaw": 2,
                     "targetYaw": -90,
                     "type": "scene",
-                    "text": "B Korridor",
+                    "text": "B Corridor",
                     "sceneId": "bCorridorLower"
                 },
                 {
@@ -914,20 +914,20 @@
                     "yaw": 97,
                     "targetYaw": 180,
                     "type": "scene",
-                    "text": "Entré",
+                    "text": "Entrance",
                     "sceneId": "mainEntrance"
                 },
                 {
                     "pitch": 13,
                     "yaw": 177,
                     "type": "scene",
-                    "text": "Aulan",
+                    "text": "Auditorium",
                     "sceneId": "r2"
                 }
             ]
         },
         "r2": {
-            "title": "Aulan",
+            "title": "Auditorium",
             "panorama": "r2.jpeg",
             "maxPitch": 10,
             "minPitch": -19,
@@ -938,7 +938,7 @@
                     "yaw": 62,
                     "targetYaw": -177,
                     "type": "scene",
-                    "text": "Utanför Aulan",
+                    "text": "Outside Auditorium",
                     "sceneId": "outsideR2"
                 }
             ]
@@ -955,7 +955,7 @@
                     "yaw": -125,
                     "targetYaw": -129,
                     "type": "scene",
-                    "text": "N Korridor",
+                    "text": "N Corridor",
                     "sceneId": "nCorridor"
                 },
                 {
@@ -993,7 +993,7 @@
             ]
         },
         "sideEntrance": {
-            "title": "Sidoingång",
+            "title": "Side Entrance",
             "panorama": "sideEntrance.jpeg",
             "maxPitch": 10,
             "minPitch": -17.5,
@@ -1004,7 +1004,7 @@
                     "yaw": 2,
                     "targetYaw": 1,
                     "type": "scene",
-                    "text": "B Korridor",
+                    "text": "B Corridor",
                     "sceneId": "bCorridorUpper"
                 },
                 {
@@ -1012,14 +1012,14 @@
                     "yaw": 95,
                     "targetYaw": 95,
                     "type": "scene",
-                    "text": "E Korridor",
+                    "text": "E Corridor",
                     "sceneId": "eCorridor"
                 },
                 {
                     "pitch": 13,
                     "yaw": 112,
                     "type": "scene",
-                    "text": "Musiksalen",
+                    "text": "Music room",
                     "sceneId": "e3"
                 }
             ]
@@ -1036,7 +1036,7 @@
                     "yaw": -145,
                     "targetYaw": 160,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorLower"
                 }
             ]
@@ -1053,7 +1053,7 @@
                     "yaw": -178,
                     "targetYaw": -16,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorUpper"
                 }
             ]
@@ -1070,7 +1070,7 @@
                     "yaw": -114,
                     "targetYaw": 90,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorUpper"
                 }
             ]
@@ -1087,13 +1087,13 @@
                     "yaw": -187,
                     "targetYaw": 127,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorUpper"
                 }
             ]
         },
         "tCorridorLower": {
-            "title": "T Korridor",
+            "title": "T Corridor",
             "panorama": "tCorridorLower.jpeg",
             "maxPitch": 12,
             "minPitch": -20.5,
@@ -1104,7 +1104,7 @@
                     "yaw": -5,
                     "targetYaw": -86,
                     "type": "scene",
-                    "text": "E Korridor",
+                    "text": "E Corridor",
                     "sceneId": "eCorridor"
                 },
                 {
@@ -1112,7 +1112,7 @@
                     "yaw": 86,
                     "targetYaw": -186,
                     "type": "scene",
-                    "text": "N Korridor",
+                    "text": "N Corridor",
                     "sceneId": "nCorridor"
                 },
                 {
@@ -1128,7 +1128,7 @@
                     "yaw": -184,
                     "targetYaw": -48,
                     "type": "scene",
-                    "text": "T korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorUpper"
                 },
                 {
@@ -1141,7 +1141,7 @@
             ]
         },
         "tCorridorUpper": {
-            "title": "T Korridor",
+            "title": "T Corridor",
             "panorama": "tCorridorUpper.jpeg",
             "maxPitch": 11,
             "minPitch": -19,
@@ -1152,7 +1152,7 @@
                     "yaw": 48,
                     "targetYaw": 184,
                     "type": "scene",
-                    "text": "T Korridor",
+                    "text": "T Corridor",
                     "sceneId": "tCorridorLower"
                 },
                 {
