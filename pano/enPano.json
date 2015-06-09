@@ -7,7 +7,7 @@
         "pitch": 40,
         "hfov": 90,
         "maxHfov": 90,
-        "basePath": "/pano/img/"
+        "basePath": "../pano/img/"
     },
 
     "scenes": {
